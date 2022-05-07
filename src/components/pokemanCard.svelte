@@ -1,6 +1,5 @@
-
+<!-- Экспортируем pokeman -->
 <script>
-    import { fade } from 'svelte/transition';
     export let pokeman;
 
 // Здесь указывается ссылка на картинку
