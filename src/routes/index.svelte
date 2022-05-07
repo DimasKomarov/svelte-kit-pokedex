@@ -1,3 +1,5 @@
+
+
 <!-- Скрипт, который выводит в консоль фразу Hello world -->
 <script>
     // Импортируем наших покемонов из pokestore
@@ -10,7 +12,6 @@
     let filteredPokemon = [];
 
     $: {
-        console.log(searchTerm);
         if (searchTerm) {
             filteredPokemon = $pokemon.filter(pokeman => pokeman.name.toLowerCase().includes(searchTerm.toLowerCase()));
         }else {
