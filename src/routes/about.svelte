@@ -1,0 +1,9 @@
+<!-- Тег свелт для отображения названия в шапке страницы  -->
+<svelte:head>
+    <title>About the Svelte Kit Pokedex</title>
+</svelte:head>
+
+<!-- Заголовок и описание -->
+<h1>About</h1>
+<p>This is a really cool Svelte Kit demo that uses 
+    the Pokemon API to build a Pokdex</p>
