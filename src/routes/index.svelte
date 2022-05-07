@@ -12,8 +12,9 @@
 </svelte:head>
 
 <!-- Заголовок -->
-<h1>Svelte Kit Pokedex</h1>
+<h1 class ="text-4xl text-center my-8 uppercase">Svelte Kit Pokedex</h1>
 
+<!-- Обработка возможной ошибки, когда вместо pokemon будет pokeman  -->
 {#each $pokemon as pokeman}
 <p>{pokeman.name}</p>
 {/each}
