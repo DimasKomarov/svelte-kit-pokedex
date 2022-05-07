@@ -4,14 +4,16 @@
     import Nav from "../components/nav.svelte";
 </script>
 
-<!-- Вызов меню навигации -->
-<Nav/>
+<div class="p-8 max-w-6xl mx-auto">
+    <!-- Вызов меню навигации -->
+    <Nav/>
+    <!-- Тег slot для создания навигации по всем страницам -->
+    <slot></slot>
+</div>
 
-<!-- Тег slot для создания навигации по всем страницам -->
-<slot></slot>
-
+<!-- Стили библиотеки tailwind -->
 <style>
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 </style>

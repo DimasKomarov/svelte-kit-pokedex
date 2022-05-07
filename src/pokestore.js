@@ -13,7 +13,7 @@ const fetchPokemon = async () => {
 		    image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
 			index + 1
 		    }.png`
-        }
+        };
 	});
     pokemon.set(loadedPokemon);
 }
