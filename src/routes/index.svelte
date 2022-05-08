@@ -6,6 +6,7 @@
     // и выводим их в консоль при помощи значка реактивности $
     import {pokemon} from "../pokestore"
     import PokemanCard from "../components/pokemanCard.svelte";
+    
 
     // Поиск покемонов, запрос и нужный нам покемон
     let searchTerm = "";

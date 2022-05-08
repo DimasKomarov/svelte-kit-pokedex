@@ -2,6 +2,7 @@
 сразу на нескольких страницах без подгрузки -->
 <script>
     import Nav from "../components/nav.svelte";
+    import "../app.css";
 </script>
 
 <div class="p-8 max-w-6xl mx-auto">
@@ -11,9 +12,3 @@
     <slot></slot>
 </div>
 
-<!-- Стили библиотеки tailwind -->
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>

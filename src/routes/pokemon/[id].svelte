@@ -1,8 +1,8 @@
 <!-- Берем id покемона и возвращаем его страницу -->
 <script context="module">
     import { getPokemonById } from "../../pokestore";
-    export async function load(ctx) {
-        let id = ctx.page.params.id;
+    export async function load({params}) {
+        const id = params.id;
         const pokeman = await getPokemonById(id);
         return { props: { pokeman }}
     }
